@@ -4,7 +4,7 @@ The board is defined as a 8x8 boxes.
 ![Empty Board](Images/EmptyBoard.png =200x)
 
 Vertical indexing is called **File**, while horizontal indexing is called **Rank**.
-![File Rank Board](Images/FileRankBoard.png | width=200)
+<img src='Images/FileRankBoard.png' width='200px' />
 
 Combining **File** and **Rank** gives a **Position** on the chessboard.
 ![Board](Images/Board.png =200x)
