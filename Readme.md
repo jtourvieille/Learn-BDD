@@ -1,6 +1,10 @@
+
  https://stackedit.io/app#
  
  # Learn BDD
+ This serie of exercices is made to learn BDD practically. It is divided into linked steps. Follow them in order to achieve the full course.
+ We use ```C#``` as reference language, but any other object oriented language is fine four our needs. The application uses the minimal external libraries, to limit the overhead. 
+ ```mstest``` and ```SpecFlow``` are the needed libraries
  # Application pitch
  The application is based on the chess game. We need to implement move rules for each piece of the game, ie: **pawn**, **rook**, **knight**, **bishop**, **queen** and **king**.
  We will simplify the full game rules by considering that the board empty. Thus, we do not consider "collisition" or "blocking path" problematics.
@@ -15,61 +19,42 @@ This repository contains multiple branches targetting different aspects of BDD.
 
 # Board explanation
 
-A chess board is composed of a 8x8 ````case```
-```TODO: image empty chess```
-
-Horizontal rows are called **Rank**, while Vertical are called **File**
-```TODO: image file/row```
-
-Each ```case``` is identified with a unique number reflecting its position, File is first item of a position, while Rank is the last item.
-````TODO: image positions board```
+-definition du board, file, rank, numérotation...
+The board is defined as a 8x8 boxes.
+[Empty Board](Images/EmptyBoard.png)
+Vertical indexing is called **File**, while horizontal indexing is called **Rank**.
+[File Rank Board](Images/FileRankBoard.png)
+Combining **File** and **Rank** gives a **Position** on the chessboard.
+[Board](Images/Board.png)
 
 # Writing your first behavior
 
-The branch to clone is ```Step1_FirstBehavior```
-
 ## Exploring solution architecture
 
--image de la solution avec explication ```TODO```
+Our starting point will be this solution:
+[Initial solution](Images/InitialSolution.png)
+It contains 2 projects:
+-**Chess**: the implementation project
+-**Chess.Tests**: the test project
+
+All needed libraries are already referenced. You should not use another one.
 
 ## User Story: 
 
 A user story follow a simple template like:
-**As a** <type of user>, **I want** <some goal>, **so that** <some reason>.
+**As a** ```type of user```, **I want** ```some goal```, **so that** ```some reason```.
 
-It also contains business rules.
+It also contains **business rules**.
 
-From business rules, we can deduce functionnal examples.
+From one **business rules**, we can deduce one or more **functionnal examples**. They are finally translated into **Scenarios**. Generally, a **User Story** is mapped to a **Feature**.
 
-Let's start with a first user story.
+Let's start with a first User Story.
 
-| User Story **Pawn** |
-| ------------------- |
-| As a pawn, I want to move following the chess rules, so that chess rules are respected |
-| One step forward rule: A white pawn can move one step forward, in the rank direction. ```Introduce image``` |
+>User Story **Pawn**
+As a pawn, I want to move following the chess rules, so that chess rules are respected.
+One step forward rule: A white pawn can move one step forward, in the vertical direction.
+[Board](Images/Pawn-1.png)
 
-
-
--formalisation de l'US -> 1 seule règle
-
-# Adding another behavior
-
--partir de la solution au point precedent
--branche à cloner = Step2_SecondBehaviorAndRefacto
--on complète l'US precedente, et on ajouter une US sur une autre piece
--réutilisation de steps, du scenario context
-
-# Implementing all behaviors
-
--branche à cloner = Step3_AllBehaviors
--formalisation de l'ensemble des US
-
-# Generating documentation
-
--usilisation de pickles
-
-# Generating advanced documentation
-
--images
--test result
--xl, doc...
+## Goal
+Now that you have a Business rule, you have to transform it into real code!
+>**Tip**: start by adding a new SpecFlow feature file.
