@@ -1,13 +1,13 @@
  
 # Board explanation
 The board is defined as a 8x8 boxes.
-![Empty Board](Images/EmptyBoard.png =200px)
+![Empty Board](Images/EmptyBoard.png =200x)
 
 Vertical indexing is called **File**, while horizontal indexing is called **Rank**.
-![File Rank Board](Images/FileRankBoard.png =200px)
+![File Rank Board](Images/FileRankBoard.png =200x)
 
 Combining **File** and **Rank** gives a **Position** on the chessboard.
-![Board](Images/Board.png =200px)
+![Board](Images/Board.png =200x)
 
 # Writing your first behavior
 
@@ -40,7 +40,7 @@ Let's start with a first User Story.
 As a pawn, I want to move following the chess rules, so that chess rules are respected.
 One step forward rule: A white pawn can move one step forward, in the vertical direction.
 
-![Board](Images/Pawn-1.png =200px)
+![Board](Images/Pawn-1.png =200x)
 
 ## Goal
 Now that you have a Business rule, you have to transform it into real code!
