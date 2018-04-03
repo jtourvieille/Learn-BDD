@@ -3,6 +3,7 @@
 Let's add some new behavior to the previous User Story.
 
 >User Story **Pawn**
+
 As a pawn, I want to move following the chess rules, so that chess rules are respected.
 
 One step forward rule: A white pawn can move one step forward, in the vertical direction.
@@ -21,6 +22,7 @@ Board bounds rule: A pawn can't go behind board limits.
 # Rook User Story
 
 >User Story **Rook**
+
 As a rook, I want to move following the chess rules, so that chess rules are respected.
 
 Move rule: A rook can move vertically and horizontally anywhere on the board.
