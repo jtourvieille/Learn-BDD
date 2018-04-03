@@ -1,19 +1,23 @@
  
 # Board explanation
 The board is defined as a 8x8 boxes.
-![Empty Board](Images/EmptyBoard.png =200x)
+
+<img src='Images/EmptyBoard.png' width='200px' />
 
 Vertical indexing is called **File**, while horizontal indexing is called **Rank**.
+
 <img src='Images/FileRankBoard.png' width='200px' />
 
 Combining **File** and **Rank** gives a **Position** on the chessboard.
-![Board](Images/Board.png =200x)
+
+<img src='Images/Board.png' width='200px' />
 
 # Writing your first behavior
 
 ## Exploring solution architecture
 
 Our starting point will be this solution:
+
 ![Initial solution](Images/InitialSolution.png)
 
 It contains 2 projects:
@@ -40,7 +44,7 @@ Let's start with a first User Story.
 As a pawn, I want to move following the chess rules, so that chess rules are respected.
 One step forward rule: A white pawn can move one step forward, in the vertical direction.
 
-![Board](Images/Pawn-1.png =200x)
+<img src='Images/Pawn-1.png' width='200px' />
 
 ## Goal
 Now that you have a Business rule, you have to transform it into real code!
