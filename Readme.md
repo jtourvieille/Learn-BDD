@@ -1,15 +1,21 @@
-# Learn BDD
-This serie of exercices is made to learn BDD practically. It is divided into linked steps. Follow them in order to achieve the full course.
-We use ```C#``` as reference language, but any other object oriented language is fine four our needs. The application uses the minimal external libraries, to limit the overhead. 
-```mstest``` and ```SpecFlow``` are the needed libraries
-# Application pitch
-The application is based on the chess game. We need to implement move rules for each piece of the game, ie: **pawn**, **rook**, **knight**, **bishop**, **queen** and **king**.
-We will simplify the full game rules by considering that the board empty. Thus, we do not consider "collisition" or "blocking path" problematics.
-# Cloning the right branch
-This repository contains multiple branches targetting different aspects of BDD.
-- [Step1_FirstBehavior](https://github.com/jtourvieille/Learn-BDD/tree/Step1_FirstBehavior) is the starting point to write your first Gherkin, and implement your first behavior
-- [Step2_SecondBehaviorAndRefacto](https://github.com/jtourvieille/Learn-BDD/tree/Step2_SecondBehaviorAndRefacto) shows how to share steps between Features/Scenarios
-- [Step3_AllBehaviors](https://github.com/jtourvieille/Learn-BDD/tree/Step3_AllBehaviors) is the starting point to complete a fully acceptable documented implementation
-- [Step4_DocGeneration](https://github.com/jtourvieille/Learn-BDD/tree/Step4_DocGeneration) uses pickles as a generating tool, to produce a readeable website describing your application
-- [Step5_AdvancedDocGeneration](https://github.com/jtourvieille/Learn-BDD/tree/Step5_AdvancedDocGeneration) show some advanced techniques to go further with the documentation
-- [FinalStep](https://github.com/jtourvieille/Learn-BDD/tree/FinalStep) contains all the previous stuff
+# Advanced document generation
+
+Now that you have a fully functionnal website, you may want to tune it, by including more advanced features.
+
+## Images
+
+Include images in your feature files. They will be interpreted by pickles, and included in the generated website.
+
+## Test result
+
+You may have noticed that scenarios where considered as **Inconclusive** when generating documentation.
+You can use mstest test result to handle test result, and categorize scenarios into three categories: **Inconclusive**, **Failing** and **Passing**.
+
+## Tags
+
+In our application, we only have few tests. In can be usefull, in a wider application to categorize tests. You can easily mark **scenario** or **feature** with **Tags**.
+They can be searched with keyword more easily.
+
+## Other documentation formats
+
+Pickles doc offers the ability to generate an [HTML website with search capabilities](http://www.picklesdoc.com/pickles/Output/Dhtml/Index.html), but also a [static HTML site](http://www.picklesdoc.com/pickles/Output/Html/index.html), [JSON raw data](http://www.picklesdoc.com/pickles/Output/JSON/pickledFeatures.json), [Word](http://www.picklesdoc.com/pickles/Output/Word/Pickles.docx) and [Excel](http://www.picklesdoc.com/pickles/Output/Excel/features.xlsx) documentation.
