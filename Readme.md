@@ -31,7 +31,7 @@ Move rule: A queen can move vertically, horizontally and diagonally.
 
 Board bounds rule: A queen can't go behind board limits.
 
-# Queen User Story
+# King User Story
 
 >User Story **King**
 As a King, I want to move following the chess rules, so that chess rules are respected.
