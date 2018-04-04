@@ -58,10 +58,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PawnMoveExplorer.feature.cs">
+    <Compile Include="PawnMove.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PawnMoveExplorer.feature</DependentUpon>
+      <DependentUpon>PawnMove.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StepDefinitions\PawnMoveSteps.cs" />
@@ -70,9 +70,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="PawnMoveExplorer.feature">
+    <None Include="PawnMove.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>PawnMoveExplorer.feature.cs</LastGenOutput>
+      <LastGenOutput>PawnMove.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

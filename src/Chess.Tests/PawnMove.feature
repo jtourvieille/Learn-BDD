@@ -1,4 +1,4 @@
-﻿Feature: Pawn move explorer
+﻿Feature: Pawn move
 
 Scenario Outline: A white pawn can move one step forward
 	Given A pawn is placed at the initial position <InitialPosition>
