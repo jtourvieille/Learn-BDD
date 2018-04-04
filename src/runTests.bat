@@ -1,0 +1,1 @@
+dotnet test -o ./TestResults ./Chess.Tests/Chess.Tests.csproj --logger trx;logfilename=res.xml
