@@ -18,14 +18,14 @@ namespace Chess.Tests
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class PawnMoveFeature
+    public partial class PawnMovesFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "PawnMove.feature"
+#line 1 "PawnMoves.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,7 +44,7 @@ namespace Chess.Tests
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Pawn move", "<table margin=\'5\'>\r\n\t<tr>\r\n\t\t<td>\r\n\t\t\t<img src =\'./Board.png\' alt=\'Board\' width=\'" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Pawn Moves", "<table margin=\'5\'>\r\n\t<tr>\r\n\t\t<td>\r\n\t\t\t<img src =\'./Board.png\' alt=\'Board\' width=\'" +
                     "200\' height=\'200\' />\r\n\t\t</td>\r\n\t\t<td>\r\n\t\tIn order follow the chess game rules<br" +
                     "/>\r\n\t\tAs a <b>Pawn</b><br/>\r\n\t\tI have to respect some move rules\r\n\t\t</td>\r\n\t</tr" +
                     ">\r\n</table>", ProgrammingLanguage.CSharp, ((string[])(null)));
@@ -62,9 +62,9 @@ namespace Chess.Tests
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "Pawn move")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Pawn Moves")))
             {
-                global::Chess.Tests.PawnMoveFeature.FeatureSetup(null);
+                global::Chess.Tests.PawnMovesFeature.FeatureSetup(null);
             }
         }
         
@@ -110,7 +110,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn can move one step forward: 44")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "44")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "44")]
@@ -124,7 +124,7 @@ this.AWhitePawnCanMoveOneStepForward("44", "45", ((string[])(null)));
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn can move one step forward: 43")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "43")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "43")]
@@ -138,7 +138,7 @@ this.AWhitePawnCanMoveOneStepForward("43", "44", ((string[])(null)));
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn can move one step forward: 86")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "86")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "86")]
@@ -175,7 +175,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A black pawn can move one step forward: 34")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "34")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "34")]
@@ -189,7 +189,7 @@ this.ABlackPawnCanMoveOneStepForward("34", "33", ((string[])(null)));
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A black pawn can move one step forward: 17")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "17")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "17")]
@@ -203,7 +203,7 @@ this.ABlackPawnCanMoveOneStepForward("17", "16", ((string[])(null)));
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A black pawn can move one step forward: 74")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "74")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "74")]
@@ -240,7 +240,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn placed on his initial rank can move one or two step forward: 22")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "22")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "22")]
@@ -254,7 +254,7 @@ this.AWhitePawnPlacedOnHisInitialRankCanMoveOneOrTwoStepForward("22", "23,24", (
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn placed on his initial rank can move one or two step forward: 52")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "52")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "52")]
@@ -268,7 +268,7 @@ this.AWhitePawnPlacedOnHisInitialRankCanMoveOneOrTwoStepForward("52", "53,54", (
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn placed on his initial rank can move one or two step forward: 82")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "82")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "82")]
@@ -306,7 +306,7 @@ this.ScenarioSetup(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn placed on the black initial rank can\'t move one or two step forward:" +
             " 27")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "27")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "27")]
@@ -321,7 +321,7 @@ this.AWhitePawnPlacedOnTheBlackInitialRankCantMoveOneOrTwoStepForward("27", "25,
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A white pawn placed on the black initial rank can\'t move one or two step forward:" +
             " 67")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "67")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "67")]
@@ -358,7 +358,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A pawn can\'t move backward: 55")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "55")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "55")]
@@ -372,7 +372,7 @@ this.APawnCantMoveBackward("55", "54,53,52,51", ((string[])(null)));
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A pawn can\'t move backward: 22")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "22")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "22")]
@@ -409,7 +409,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Pawn can not go outside board bounds when it is close to the border: 28")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "28")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "28")]
@@ -423,7 +423,7 @@ this.PawnCanNotGoOutsideBoardBoundsWhenItIsCloseToTheBorder("28", "", ((string[]
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Pawn can not go outside board bounds when it is close to the border: 38")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn move")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Pawn Moves")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Pawn")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "38")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:InitialPosition", "38")]

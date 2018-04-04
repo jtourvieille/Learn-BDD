@@ -1,4 +1,4 @@
-﻿Feature: Pawn move
+﻿Feature: Pawn Moves
 <table margin='5'>
 	<tr>
 		<td>
