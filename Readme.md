@@ -6,7 +6,7 @@ We use ```C#``` as reference language, but any other object oriented language is
 The application is based on the chess game. We need to implement move rules for each piece of the game, ie: **pawn**, **rook**, **knight**, **bishop**, **queen** and **king**.
 We will simplify the full game rules by considering that the board empty. Thus, we do not consider "collisition" or "blocking path" problematics.
 # Cloning the right branch
-This repository contains multiple branches targetting different aspects of BDD.
+This repository contains multiple branches targeting different aspects of BDD.
 - [Step1_FirstBehavior](https://github.com/jtourvieille/Learn-BDD/tree/Step1_FirstBehavior) is the starting point to write your first Gherkin, and implement your first behavior
 - [Step2_SecondBehaviorAndRefacto](https://github.com/jtourvieille/Learn-BDD/tree/Step2_SecondBehaviorAndRefacto) shows how to share steps between Features/Scenarios
 - [Step3_AllBehaviors](https://github.com/jtourvieille/Learn-BDD/tree/Step3_AllBehaviors) is the starting point to complete a fully acceptable documented implementation
